@@ -1,5 +1,5 @@
 <template>
-    <router-link class="v-form-validate row g-3" @submit.prevent="handlerSubmit">
+    <form class="v-form-validate row g-3" @submit.prevent="handlerSubmit">
         <div class="v-form-group">
             <!-- login -->
             <div class="v-form-input  col-md-8">
@@ -180,7 +180,7 @@
                 >Войти в систему</button>
             </div>
         </div>       
-    </router-link>   
+    </form>   
 </template>
 <script>
 import { validationMixin } from 'vuelidate'

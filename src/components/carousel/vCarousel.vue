@@ -1,5 +1,5 @@
 <template>
-    <router-link class="wrapper">
+    <div class="wrapper">
         <div class="vCarousel" :style="{'margin-left': '-' + (100 * currentSlideindex) + '%'}">
             <vCarouselItem
             v-for="item in carousel_data"
@@ -11,7 +11,7 @@
             <button @click="nextSlide" class="btn">Назад</button>
             <button @click="prevSlide" class="btn">Вперёд</button>          
         </div>             
-    </router-link>
+    </div>
 </template>
 
 <script>
