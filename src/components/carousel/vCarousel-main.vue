@@ -1,5 +1,5 @@
 <template>
-    <div v-carousel-main>
+    <div class="v-carousel-main">
         <vCarousel
         :carousel_data="sliderItems"
         :interval="2000"
@@ -8,8 +8,8 @@
     </div>
 </template>
 <script>
-import vCarouselItem from './vCarousel-item.vue';
-import vCarousel from './vCarousel.vue';
+import vCarouselItem from '@/components/carousel/vCarousel-item.vue';
+import vCarousel from '@/components/carousel/vCarousel.vue';
 export default {
     name: 'VcarouselMain',
     components:{

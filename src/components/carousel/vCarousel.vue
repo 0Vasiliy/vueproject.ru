@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import vCarouselItem from './vCarousel-item.vue';
+import vCarouselItem from '@/components/carousel/vCarousel-item.vue';
 
 export default {
     name: 'vCarousel',
