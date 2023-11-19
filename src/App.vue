@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <v-main/>
     <router-link to="/VFormValidate"></router-link>
     <router-link to="/vCarouselMain"></router-link>
     <router-view/>
@@ -8,11 +9,9 @@
 
 <script>
 
-
 export default {
   name: 'App',
   components: {
-  
   },
 }
 </script>

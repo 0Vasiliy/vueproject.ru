@@ -1,9 +1,14 @@
 import VueRouter from 'vue-router'
 import vFormValidate from '@/components/form/v-form-validate'
 import vCarouselMain from '@/components/carousel/vCarousel-main.vue';
+import vMain from '@/components/main/v-main.vue'
 
 export default new VueRouter({
-    routes:[       
+    routes:[   
+        {
+            path: '/',
+            component: vMain,
+        },    
         {
             path: '/vFormValidate',
             component: vFormValidate,
@@ -16,6 +21,5 @@ export default new VueRouter({
        
     ],
     mode: 'history',
-    base:"/"
+    base:"/",
 })
-
