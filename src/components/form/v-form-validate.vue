@@ -1,6 +1,7 @@
 <template>
     <form class="v-form-validate row g-3" @submit.prevent="handlerSubmit">
-        <div class="v-form-group">
+        <div class="container">
+            <div class="v-form-group">
             <!-- login -->
             <div class="v-form-input  col-md-8">
                 <label for="login" class="form-label">Логин</label>
@@ -53,13 +54,13 @@
                 </p>
             </div>
             <!-- select1 -->
-            <div class="v-form-input col-md-8 col-5">
+            <div class="v-form-input col-md-8 form-selected">
                 <label for="inputState" class="form-label">Город</label>
                 <select id="inputState" 
                 class="form-select" 
                 v-model="form.city"
                 >
-                <option
+                <option class="form-option-list"
                  selected
                  v-for="(city,index) in cityes"
                  :value="city.value"
@@ -69,7 +70,7 @@
                 </select>
             </div>
             <!-- select2 -->
-            <div class="v-form-input col-md-8 col-5">
+            <div class="v-form-input col-md-8 form-selected">
                 <label for="inputState" class="form-label">Адрес</label>
                 <select
                 class="form-select" 
@@ -142,7 +143,7 @@
             <!-- radio button-->
             <div class="v-form-radio col-md-8">
             <!-- radio button male-->
-            <div class="v-form-input col-md-8">
+                <div class="v-form-input radio-maile col-md-8">
                 <div class="form-check col-md-8">
                     <input 
                     class="form-check-input" 
@@ -179,6 +180,7 @@
                 class="v-form-btn btn btn-primary"
                 >Войти в систему</button>
             </div>
+        </div>
         </div>       
     </form>   
 </template>
@@ -260,17 +262,20 @@ export default {
     .v-form-validate{
         max-width: 600px;
         margin: 0 auto;
-        border: 4px solid #2f4f4f;
+        
     }
     .v-form-group{
+        margin-left: 50px;
+        margin-right: 50px;
         padding: 50px;
        display: flex;
        flex-direction: column;
        justify-content: center;
        align-items: center;
+       border: 4px solid #2f4f4f;
     }
     .v-form-input{
-        margin-top: 20px;
+        margin-top: 15px;
     }
     .v-form-btn{
         margin-left: 0;
@@ -290,9 +295,13 @@ export default {
     .radio-fimale {
         margin-left: 20px;
     }
+    .form-option-list{
+        width: 100px;
+        font-size: 10px;
+    }
     label{
         display: flex;
-        color: #2f4f4f;
+        color: #2f4f4f;  
     }
     input{
         border: 3px solid teal;;
@@ -302,5 +311,93 @@ export default {
     }
     option{
         color: #2f4f4f;
+        max-width: 200px;
+        font-size: 14px;
+    }
+    @media(max-width: 1200px){
+        .v-form-input{
+        margin-top: 10px;
+        }
+        .v-form-group{
+            padding: 10px;
+        }
+    }
+    @media(max-width: 767px){
+        .form-selected {
+        flex: 0 0 50%;
+        width: 50%;
+        }
+    }
+    @media(max-width: 585px){
+        .form-selected {
+        flex: 0 0 55%;
+        width: 55%;
+        }
+    }
+    @media(max-width: 540px){
+        .form-selected {
+        flex: 0 0 60%;
+        width: 60%;
+        }
+    }
+    @media(max-width: 500px){
+        .form-selected {
+        flex: 0 0 65%;
+        width: 65%;
+        }
+    }
+    @media(max-width: 450px){
+        .form-selected {
+        flex: 0 0 80%;
+        width: 80%;
+        }
+    }
+    @media(max-width: 400px){
+        .form-selected {
+        flex: 0 0 75%;
+        width: 75%;
+        }
+        label,input,select,option{
+            font-size: 12px;
+        }
+    }
+    @media(max-width: 350px){
+        .form-selected {
+        flex: 0 0 90%;
+        width: 90%;
+        }
+        .v-form-radio{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+        }
+        .radio-fimale {
+        margin-left: 4px;
+        }
+       
+    }
+    @media(max-width: 300px){
+        .form-selected {
+        flex: 0 0 100%;
+        width: 100%;
+        }
+        label,input,select,option{
+            font-size: 10px;
+        }
+        .v-form-btn{
+            max-width: 120px;
+            font-size: 10px;
+        }
+    }
+    @media(max-width: 260px){
+        
+        label,input,select,option{
+            font-size: 8px;
+        }
+        .v-form-btn{
+            max-width: 100px;
+            font-size: 8px;
+        }
     }
 </style>
