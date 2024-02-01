@@ -1,10 +1,12 @@
 <template>
     <div class="v-carousel-main">
+      <div class="container">
         <vCarousel
         :carousel_data="sliderItems"
         :interval="2000"
         />
         <vCarouselItem/> 
+      </div>
     </div>
 </template>
 <script>
@@ -30,5 +32,8 @@ export default {
 }
 </script>
 <style scoped>
-    
+    .container{
+      max-width: 1420px;
+      margin: 0 auto;
+    }
 </style>
