@@ -334,6 +334,12 @@ export default {
         width: 55%;
         }
     }
+    @media(max-width: 555px){
+        .form-selected {
+        flex: 0 0 57%;
+        width: 57%;
+        }
+    }
     @media(max-width: 540px){
         .form-selected {
         flex: 0 0 60%;
@@ -405,8 +411,8 @@ export default {
     }
     @media(max-width: 365px){
         .form-selected {
-        flex: 0 0 83%;
-        width: 83%;
+        flex: 0 0 84%;
+        width: 84%;
         }
     }
     @media(max-width: 350px){

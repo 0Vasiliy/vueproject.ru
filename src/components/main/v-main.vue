@@ -5,7 +5,6 @@
             <h2 class="title title_fz16 title__section-title">Портфолио</h2>
             <div class="title title_fz36 title__section-subtitle">Мои <span>VUE</span> работы</div>
             <div class="divider"></div>
-
             <div class="portfolio__wrapper">
                 <router-link to="/vFormValidate" class="portfolio__item">
                     <img src="@/assets/img/works/vue2_form.png" alt="vue2_form">                                    
@@ -39,7 +38,6 @@ export default {
     &__section-title {
         position: relative;
         text-align: center;
-        // @include before_circle;
         &:before {
             top: -6px;
             left: 50%;
