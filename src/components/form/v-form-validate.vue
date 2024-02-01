@@ -340,16 +340,34 @@ export default {
         width: 60%;
         }
     }
+    @media(max-width: 510px){
+        .form-selected {
+        flex: 0 0 62%;
+        width: 62%;
+        }
+    }
     @media(max-width: 500px){
         .form-selected {
         flex: 0 0 65%;
         width: 65%;
         }
     }
+    @media(max-width: 490px){
+        .form-selected {
+        flex: 0 0 67%;
+        width: 67%;
+        }
+    }
     @media(max-width: 450px){
         .form-selected {
         flex: 0 0 80%;
         width: 80%;
+        }
+    }
+    @media(max-width: 411px){
+        .form-selected {
+        flex: 0 0 85%;
+        width: 85%;
         }
     }
     @media(max-width: 400px){
@@ -359,6 +377,12 @@ export default {
         }
         label,input,select,option{
             font-size: 12px;
+        }
+    }
+    @media(max-width: 380px){
+        .form-selected {
+        flex: 0 0 85%;
+        width: 85%;
         }
     }
     @media(max-width: 350px){
@@ -377,11 +401,14 @@ export default {
         }
        
     }
-    @media(max-width: 300px){
+    @media(max-width: 340px){
         .form-selected {
         flex: 0 0 100%;
         width: 100%;
         }
+    }
+    @media(max-width: 300px){
+    
         label,input,select,option{
             font-size: 10px;
         }
