@@ -358,10 +358,28 @@ export default {
         width: 67%;
         }
     }
+    @media(max-width: 470px){
+        .form-selected {
+        flex: 0 0 71%;
+        width: 71%;
+        }
+    }
+    @media(max-width: 460px){
+        .form-selected {
+        flex: 0 0 73%;
+        width: 73%;
+        }
+    }
     @media(max-width: 450px){
         .form-selected {
         flex: 0 0 80%;
         width: 80%;
+        }
+    }
+    @media(max-width: 430px){
+        .form-selected {
+        flex: 0 0 82%;
+        width: 82%;
         }
     }
     @media(max-width: 411px){
@@ -381,8 +399,14 @@ export default {
     }
     @media(max-width: 380px){
         .form-selected {
-        flex: 0 0 85%;
-        width: 85%;
+        flex: 0 0 78%;
+        width: 78%;
+        }
+    }
+    @media(max-width: 365px){
+        .form-selected {
+        flex: 0 0 83%;
+        width: 83%;
         }
     }
     @media(max-width: 350px){
