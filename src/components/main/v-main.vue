@@ -11,7 +11,10 @@
                 </router-link>  
                 <router-link to="/vCarouselMain" class="portfolio__item">
                     <img src="@/assets/img/works/vue-carusel.jpg" alt="vue2_carousel">                  
-                </router-link>          
+                </router-link>  
+                <a v-bind:href="link" class="portfolio__item">
+                    <img src="@/assets/img/works/liss.jpg" alt="vue2_carousel">                  
+                </a>         
             </div>           
         </div>
     </div>
@@ -20,7 +23,13 @@
 <script>
 
 export default {
-    name: 'vMain'
+    name: 'vMain',
+    data(){
+        return{
+            link: 'http://www.vetlis.ru/'
+        }
+    }
+
 }
 </script>
 <style scoped lang="scss">

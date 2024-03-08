@@ -409,7 +409,7 @@ export default {
         width: 78%;
         }
     }
-    @media(max-width: 365px){
+    @media(max-width: 370px){
         .form-selected {
         flex: 0 0 84%;
         width: 84%;
