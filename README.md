@@ -1,24 +1,9 @@
-# vueproject
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Различные проекты на Vue - Form,Slider, Адаптивный многостраничный сайт Ветеринарной клиники с отправкой формы, и синхронизированная с сайтом программа онлайн записи Ветеринарной клиники
+# Стэк - Vue CLI,Vue-Router,Axios, Emailjs, Vuevalidate, Maska, Vite с подключением к БД Firebase (Get, Post, Put, Delete)
+# Адаптив под мобильные устройства и планшеты.
+# Аутентификация по email и password Firebase http://m911026o.beget.tech/ Тестовый сервер
+# Вход логин test_new@mail.ru password Fr5(uiMe#4wN
+# Можно самому зарегистрироваться по email + пароль и зайти
+# Можно самому создать / отредактировать /удалить клиента со всеми доступными параметрами.Также сделать задачу выполненой или отменённой.
+# Можно отсортировать и отфильтровать по различным параметрам
+# Так же можно отправить данные с формы https://vueproject.ru/vModal и получить данные программs онлайн записи на тестовом сервере http://m911026o.beget.tech/
