@@ -7,14 +7,17 @@
             <div class="divider"></div>
             <div class="portfolio__wrapper">
                 <router-link to="/vModal" class="portfolio__item">
-                    <img src="@/assets/img/works/vue2_form.jpg" alt="vue2_form">                                    
+                    <img src="@/assets/img/works/vue2_form.jpg" alt="Онлайн форма">                                    
                 </router-link>  
                 <router-link to="/vCarouselMain" class="portfolio__item">
-                    <img src="@/assets/img/works/vue-carusel.jpg" alt="vue2_carousel">                  
+                    <img src="@/assets/img/works/vue-carusel.jpg" alt="Карусель">                  
                 </router-link>  
                 <a v-bind:href="link" class="portfolio__item">
-                    <img src="@/assets/img/works/liss.jpg" alt="vue2_carousel">                  
-                </a>         
+                    <img src="@/assets/img/works/liss.jpg" alt="Ветклиника">                  
+                </a>  
+                <a v-bind:href="link2" class="portfolio__item">
+                    <img src="@/assets/img/works/online.jpg" alt="Онлайн запись">                  
+                </a>       
             </div>           
         </div>
     </div>
@@ -26,7 +29,8 @@ export default {
     name: 'vMain',
     data(){
         return{
-            link: 'http://www.vetlis.ru/'
+            link: 'http://www.vetlis.ru/',
+            link2: 'http://m911026o.beget.tech/'
         }
     }
 
