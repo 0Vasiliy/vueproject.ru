@@ -6,8 +6,8 @@
             <div class="title title_fz36 title__section-subtitle">Мои <span>VUE</span> работы</div>
             <div class="divider"></div>
             <div class="portfolio__wrapper">
-                <router-link to="/vFormValidate" class="portfolio__item">
-                    <img src="@/assets/img/works/vue2_form.png" alt="vue2_form">                                    
+                <router-link to="/vModal" class="portfolio__item">
+                    <img src="@/assets/img/works/vue2_form.jpg" alt="vue2_form">                                    
                 </router-link>  
                 <router-link to="/vCarouselMain" class="portfolio__item">
                     <img src="@/assets/img/works/vue-carusel.jpg" alt="vue2_carousel">                  

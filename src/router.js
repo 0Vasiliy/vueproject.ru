@@ -1,5 +1,5 @@
 import VueRouter from 'vue-router'
-import vFormValidate from '@/components/form/v-form-validate'
+import vModal from '@/components/form/v-modal.vue'
 import vCarouselMain from '@/components/carousel/vCarousel-main.vue';
 import vMain from '@/components/main/v-main.vue'
 
@@ -10,8 +10,8 @@ export default new VueRouter({
             component: vMain,
         },    
         {
-            path: '/vFormValidate',
-            component: vFormValidate,
+            path: '/vModal',
+            component: vModal,
            
         },
         {

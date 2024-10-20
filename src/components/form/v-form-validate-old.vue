@@ -1,8 +1,8 @@
-<template>
+<!-- <template>
     <form class="v-form-validate row g-3" @submit.prevent="handlerSubmit">
         <div class="container">
             <div class="v-form-group">
-            <!-- login -->
+           
             <div class="v-form-input  col-md-8">
                 <label for="login" class="form-label">Логин</label>
                 <input 
@@ -20,7 +20,7 @@
                 Здесь должно быть больше 5-и символов
                 </p>
             </div>
-            <!-- email -->
+           
             <div class="v-form-input  col-md-8">
             <label for="inputEmail4" class="form-label">Эл. адрес</label>
             <input 
@@ -38,7 +38,7 @@
             Email неккоректный
             </p>
             </div>
-            <!-- password -->
+          
             <div class="v-form-input col-md-8">
                 <label for="inputPassword4" class="form-label">Пароль</label>
                 <input 
@@ -53,7 +53,7 @@
                 Обязательное поле
                 </p>
             </div>
-            <!-- select1 -->
+        
             <div class="v-form-input col-md-8 form-selected">
                 <label for="inputState" class="form-label">Город</label>
                 <select id="inputState" 
@@ -69,7 +69,7 @@
                  {{ city.label }}</option>                
                 </select>
             </div>
-            <!-- select2 -->
+          
             <div class="v-form-input col-md-8 form-selected">
                 <label for="inputState" class="form-label">Адрес</label>
                 <select
@@ -90,7 +90,7 @@
                             
                 
             </div>
-            <!-- ФИО -->
+           
             <div class="v-form-input col-md-8">
                 <label for="inputAddress2" class="form-label">ФИО</label>
                 <input 
@@ -105,7 +105,7 @@
                 Введите ФИО
                 </p>
             </div> 
-            <!-- phone -->
+           
             <div class="v-form-input col-md-8">
                 <label for="inputAddress3" class="form-label">Телефон</label>
                 <input
@@ -124,7 +124,7 @@
                 Введите номер телефона
                 </p>
             </div>  
-            <!-- Индекс -->
+          
             <div class="v-form-input col-md-8">
                 <label for="inputAddress4" class="form-label">Индекс</label>
                 <input 
@@ -140,9 +140,9 @@
                 Введите номер телефона
                 </p>
             </div>
-            <!-- radio button-->
+         
             <div class="v-form-radio col-md-8">
-            <!-- radio button male-->
+          
                 <div class="v-form-input radio-maile col-md-8">
                 <div class="form-check col-md-8">
                     <input 
@@ -157,7 +157,7 @@
                     </label>
                     </div>
                 </div>
-                <!-- radio button female -->
+            
                 <div class="v-form-input radio-fimale col-md-8">
                     <div class="form-check col-md-8">
                     <input 
@@ -174,7 +174,7 @@
                 </div>
             </div>
                     
-                <!-- button -->
+                
             <div class="v-form-input col-md-8">
                 <button type="submit"  
                 class="v-form-btn btn btn-primary"
@@ -457,4 +457,4 @@ export default {
             font-size: 8px;
         }
     }
-</style>
+</style> -->

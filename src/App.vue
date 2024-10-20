@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <v-main/>
-    <router-link to="/VFormValidate"></router-link>
+    <router-link to="/Modal"></router-link>
     <router-link to="/vCarouselMain"></router-link>
     <router-view/>
   </div>
